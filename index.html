@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Maxine Maxwell</title>
+  <title>Maxine Maxwell | Dark Fantasy VN</title>
 
-  <!-- Tipografías -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -17,7 +16,7 @@
 
 <body>
 
-  <!-- NAVBAR -->
+  <!-- NAVBAR (tu base) -->
   <header class="navbar">
 
     <div class="logo">
@@ -35,78 +34,24 @@
   </header>
 
 
-  <!-- HERO -->
-  <main class="hero">
+  <!-- VISUAL NOVEL -->
+  <main class="vn-container">
 
-    <div class="hero-content">
+    <div class="scene">
 
-      <p class="small-title">
-        Escritora · Editora · Correctora
-      </p>
+      <p class="chapter" id="chapter">PRÓLOGO</p>
 
-      <h1>
-        Historias oscuras<br>
-        contadas con elegancia.
-      </h1>
+      <h1 id="title">El eco del acantilado</h1>
 
-      <p class="description">
-        Especializada en novelas de terror y fantasía,
-        Maxine Maxwell acompaña autores y crea mundos
-        donde lo inquietante y lo bello conviven.
-      </p>
+      <p class="text" id="text"></p>
 
-      <div class="hero-buttons">
-        <a href="/servicios.html" class="btn primary-btn">
-          Ver servicios
-        </a>
-
-        <a href="/contacto.html" class="btn secondary-btn">
-          Contactar
-        </a>
-      </div>
-
-    </div>
-
-
-    <!-- BLOQUE VISUAL -->
-    <div class="hero-quote">
-
-      <p>
-        “No toda historia quiere ser contada.
-        Algunas solo quieren sobrevivir.”
-      </p>
+      <div class="choices" id="choices"></div>
 
     </div>
 
   </main>
 
-
-  <!-- SECCIÓN SIMPLE -->
-  <section class="intro-section">
-
-    <div class="intro-text">
-
-      <p class="section-label">
-        SOBRE EL UNIVERSO
-      </p>
-
-      <h2>
-        Terror elegante.<br>
-        Fantasía atmosférica.
-      </h2>
-
-      <p>
-        Un espacio dedicado a la narrativa oscura,
-        la edición literaria y la construcción de historias
-        que dejan huella mucho después de terminar la última página.
-      </p>
-
-      <div class="fantasy-banner">
-        <img src="images/acantilado.png" alt="Paisaje de fantasía oscura">
-      </div>
-    </div>
-
-  </section>
+  <script src="game.js"></script>
 
 </body>
 </html>
