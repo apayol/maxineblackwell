@@ -284,7 +284,7 @@ body{
 
 
 
-/* INTRO */
+/* SECCIONES */
 
 .intro-section{
 
@@ -374,7 +374,8 @@ body{
 }
 
 
-.intro-text h2{
+.intro-text h2,
+.services-content h2{
 
   font-family: 'Cormorant Garamond', serif;
 
@@ -388,7 +389,8 @@ body{
 }
 
 
-.intro-text p{
+.intro-text p,
+.services-content p{
 
   color: var(--text-soft);
 
@@ -399,7 +401,7 @@ body{
 
 
 
-/* NUEVO APARTADO */
+/* TE ACOMPAÑO */
 
 .companion-section{
 
@@ -431,6 +433,74 @@ body{
 
   color: rgba(255,255,255,0.75);
 }
+
+
+
+/* SERVICIOS */
+
+.services-content{
+
+  width: 100%;
+}
+
+
+.services-boxes{
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.2rem;
+
+  margin-top: 2.5rem;
+}
+
+
+.service-box{
+
+  width: 100%;
+
+  padding: 1.4rem 1.6rem;
+
+  border: 1px solid rgba(173,42,66,0.6);
+
+  border-radius: 18px;
+
+  background: rgba(255,255,255,0.02);
+
+  text-decoration: none;
+
+  color: var(--text-main);
+
+  font-size: 1rem;
+
+  transition:
+    transform 0.3s ease,
+    border 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.service-box:hover{
+
+  transform: scale(1.03);
+
+  border: 1px solid var(--accent);
+
+  background: rgba(173,42,66,0.08);
+
+  box-shadow:
+    0 10px 30px rgba(173,42,66,0.15);
+}
+
+
+.coffee-box{
+
+  margin-top: 0.8rem;
+
+  background: rgba(173,42,66,0.12);
+}
+
 
 
 /* FOOTER */
@@ -547,7 +617,8 @@ body{
     font-size: 3rem;
   }
 
-  .intro-text h2{
+  .intro-text h2,
+  .services-content h2{
 
     font-size: 3rem;
   }
