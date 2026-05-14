@@ -1,137 +1,242 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Maxine Blackwell | Sobre mí</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="images/favicon.png">
+  <title>Maxine Blackwell</title>
 
-  <!-- CSS -->
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
+  <!-- NAVBAR -->
+  <header class="navbar">
 
-    <div class="hero-content">
-      <h1>SOBRE MÍ</h1>
-
-      <p>
-        Autora de terror, misterio y fantasía oscura.
-        <br>  
-        Creadora de mundos únicos donde la magia tiene precio y el destino siempre exige algo a cambio.
-      </p>
-
-      <div class="badge">
-        Edición y corrección editorial · Ghostwriting · Mentorías y propuestas editoriales
-      </div>
-
-      <a href="index.html">Enlace a index</a><br>
-
+    <div class="logo">
+      MAXINE BLACKWELL
     </div>
+
+    <nav class="nav-links">
+      <a href="/index.html">Inicio</a>
+      <a href="/sobre-mi.html">Sobre mí</a>
+      <a href="/servicios.html">Servicios</a>
+      <a href="/novelas.html">Novelas</a>
+      <a href="/contacto.html">Contacto</a>
+    </nav>
 
   </header>
 
-  <!-- NAV -->
-  <nav>
 
-    <a href="#sobre">Sobre mí</a>
-    <a href="#obras">Obras</a>
-    <a href="#contacto">Contacto</a>
+  <!-- HERO -->
+  <main class="hero">
 
-  </nav>
+    <div class="hero-content">
 
-  <!-- SOBRE -->
-  <section id="sobre">
+      <p class="small-title">
+        Escritora · Correctora · Ghostwriter
+      </p>
 
-    <h2>Sobre mí</h2>
+      <h1>
+        Historias oscuras<br>
+        contadas desde las profundidades.
+      </h1>
 
-    <p>
-      Escribo terror, misterio y fantasía con un enfoque cinematográfico, emocional y oscuro.
-      Mis historias exploran magia prohibida, reinos antiguos y personajes atrapados entre el destino y la libertad.
-    </p>
+      <p class="description">
+        Especializada en novelas de terror y fantasía,
+        Maxine Blackwell acompaña a autores y crea mundos
+        donde lo inquietante y lo bello conviven.
+      </p>
 
-  </section>
+      <div class="hero-buttons">
 
-  <!-- OBRAS -->
-  <section id="obras">
-
-    <h2>Obras</h2>
-
-    <div class="grid">
-
-      <article class="card">
-
-        <h3>Sombras de Elarion</h3>
-
-        <p>
-          Un reino donde la magia está prohibida y la verdad arde bajo la superficie.
-        </p>
-
-        <a class="btn" href="#">
-          Leer más
+        <a href="/servicios.html" class="btn primary-btn">
+          Ver servicios
         </a>
 
-      </article>
-
-      <article class="card">
-
-        <h3>La Corona del Viento Negro</h3>
-
-        <p>
-          Una guerra antigua donde el destino de los reinos ya ha sido escrito.
-        </p>
-
-        <a class="btn" href="#">
-          Leer más
+        <a href="/contacto.html" class="btn secondary-btn">
+          Contactar
         </a>
 
-      </article>
+      </div>
 
-      <article class="card">
+    </div>
 
-        <h3>El Último Hechicero</h3>
+    <div class="hero-photo">
 
-        <p>
-          Cuando la magia desaparece, solo queda el eco de lo que fuimos.
+      <img src="images/foto-perfil.jpg" alt="Foto de Maxine Blackwell">
+
+    </div>
+
+  </main>
+
+
+  <!-- SOBRE EL UNIVERSO -->
+  <section class="intro-section">
+
+    <div class="intro-grid">
+
+      <div class="intro-image">
+
+        <img src="images/acantilado.png" alt="Paisaje de fantasía oscura">
+
+      </div>
+
+      <div class="intro-text">
+
+        <p class="section-label">
+          SOBRE EL UNIVERSO
         </p>
 
-        <a class="btn" href="#">
-          Leer más
-        </a>
+        <h2>
+          Terror elegante.<br>
+          Fantasía atmosférica.
+        </h2>
 
-      </article>
+        <p>
+          Un espacio dedicado a la narrativa oscura,
+          la edición literaria y la construcción de historias
+          que dejan huella mucho después de terminar la última página.
+        </p>
+
+      </div>
 
     </div>
 
   </section>
 
-  <!-- CONTACTO -->
-  <section id="contacto">
 
-    <h2>Contacto</h2>
+  <!-- TE ACOMPAÑO -->
+  <section class="intro-section companion-section">
 
-    <p>
-      Colaboraciones editoriales:
-    </p>
+    <div class="intro-text">
 
-    <p>
-      <strong>maxineblackwell@email.com</strong>
-    </p>
+      <p class="section-label">
+        TE ACOMPAÑO EN EL CAMINO
+      </p>
+
+      <h2>
+        Todo misterio puede resolverse<br>
+        si encuentras las pistas adecuadas.
+      </h2>
+
+      <p>
+        Además de escribir relatos bajo mi nombre, mi objetivo es transmitir mi pasión por este mundo y la experiencia conseguida con trabajos de corrección o ayudarte con tu libro desde etapas iniciales, ghostwriting desde un brainstorming de ideas o con reseñas o promociones en mis redes.
+      </p>
+
+    </div>
+
+    <div class="intro-quote-right">
+
+      <p>
+        “La idea puede llegar y ser única,
+        pero la forma define por completo la calidad de una obra.” - Ensayo sobre una realidad, MxBw.
+      </p>
+
+    </div>
 
   </section>
 
-  <!-- FOOTER -->
-  <footer>
 
-    © 2026 Maxine Blackwell · Escritora y editora
+  <!-- MIS SERVICIOS -->
+  <section class="intro-section services-section">
+
+    <div class="intro-grid">
+
+      <div class="intro-image">
+
+        <img src="images/chico.png" alt="Biblioteca oscura">
+
+      </div>
+
+      <div class="services-content">
+
+        <p class="section-label">
+          MIS SERVICIOS
+        </p>
+
+        <h2>
+          Historias cuidadas<br>
+          hasta el último detalle.
+        </h2>
+
+        <div class="services-boxes">
+
+          <a href="/servicios.html" class="service-box">
+            Corrección de textos
+          </a>
+
+          <a href="/servicios.html" class="service-box">
+            Ghostwriting
+          </a>
+
+          <a href="/servicios.html" class="service-box">
+            Reseñas en redes
+          </a>
+
+          <a href="/servicios.html" class="service-box">
+            Servicios editoriales
+          </a>
+
+          <a href="/contacto.html" class="service-box coffee-box">
+            Invítame a un café
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- NUEVA SECCIÓN -->
+  <section class="intro-section companion-section">
+
+    <div class="intro-text">
+
+      <p class="section-label">
+        CONVIERTE TU SUEÑO EN REALIDAD
+      </p>
+
+      <h2>
+        Porque los sueños se cumplen si se persiguen.
+      </h2>
+
+      <p>
+        Todo buen relato surge de una idea única. A veces se sueña, surgen de la nada. Yo te ayudo a transformarlos en realidad. Juntos podemos hacer de nuestra pasión una realidad.
+      </p>
+
+    </div>
+
+    <div class="intro-quote-right">
+
+      <p>
+        “No toda historia quiere ser contada.
+        Algunas solo quieren sobrevivir.” - Relatos del ayer, MxBw.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <p>
+      MAXINE BLACKWELL 2026 · Todos los derechos reservados
+    </p>
 
   </footer>
 
